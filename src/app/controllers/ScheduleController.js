@@ -18,7 +18,7 @@ class ScheduleController {
 
     const parsedDate = parseISO(date);
 
-    const appoitments = await Appointment.findAll({
+    const appointments = await Appointment.findAll({
       where: {
         provider_id: req.userId,
         canceled_at: null,
@@ -36,7 +36,7 @@ class ScheduleController {
       order: ['date'],
     });
 
-    return res.json({ appoitments });
+    return res.json({ appointments });
   }
 }
 
