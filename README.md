@@ -43,3 +43,7 @@ Para instalá-los rode:
    > \$ yarn queue
 
 6. O servidor estará rodando no endereço: http://localhost:3333
+
+## Licença
+
+Esse projeto utiliza a licença MIT. Para mais informações [clique aqui](https://github.com/LucasSiqz/GoBarber-Backend/blob/master/LICENSE)
